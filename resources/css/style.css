@@ -116,4 +116,23 @@ img {
     width: 100%;
 }
 
+@media only screen and (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 5.7rem;
+    }
+}
 
+
+
+/** Featured Project **/
+
+.featured-project {
+    margin-top: -7rem;
+    padding-top: 5.85rem;
+    padding-bottom: 5.85rem;
+}
+
+.featured-project .image-container {
+    height: 19rem;
+    margin-top: 20rem;
+}
