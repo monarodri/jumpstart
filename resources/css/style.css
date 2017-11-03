@@ -1,15 +1,5 @@
 /** Universal **/
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
 html {
     font-size: 14px;
 }
@@ -150,6 +140,12 @@ img {
     .jumbotron h1 {
         font-size: 5.7rem;
     }
+    
+    @media only screen and (max-width: 550px) {
+    .jumbotron h1 {
+        font-size: 4rem;
+    }
+    }    
 }
 
 /** Featured Project **/
@@ -173,6 +169,7 @@ img {
 }
 
 /** Projects **/
+
 .project {
     padding-bottom: 5.85rem;
 }
@@ -180,4 +177,28 @@ img {
 .project .image-container {
     height: 15rem;
     overflow: hidden;
+}
+
+/** Help **/
+
+.help {
+    padding: 5.2rem 0;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.help strong {
+    display: inline-block;
+    margin-bottom: 1.4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.help p {
+    max-width: 42rem;
+    margin: auto;
+}
+
+.help .btn-primary {
+    margin-top: 3rem;
 }
