@@ -19,6 +19,17 @@ body {
     line-height: 1.4;
 }
 
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 img {
     width: 100%;
 }
@@ -146,23 +157,11 @@ img {
 .featured-project {
     margin-top: -7rem;
     padding-top: 5.85rem;
-    padding-bottom: 5.85rem;
 }
 
 .featured-project .image-container {
     height: 19rem;
     margin-top: 2rem;
-}
-
-.featured-project h2 {
-    font-size: 1.7;
-    font-weight: bold;
-    color: #399bd1;
-}
-
-.featured-project h3 {
-    font-size: 1.3;
-    font-weight: bold;
 }
 
 .categories h3{
@@ -171,4 +170,14 @@ img {
 
 .categories ul {
     color: rgba(0, 0, 0, 0.7);
+}
+
+/** Projects **/
+.project {
+    padding-bottom: 5.85rem;
+}
+
+.project .image-container {
+    height: 15rem;
+    overflow: hidden;
 }
